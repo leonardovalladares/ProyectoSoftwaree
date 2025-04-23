@@ -124,6 +124,92 @@ footer{
     display: flex;
     justify-content: center;
 }
+.menu-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li img {
+    width: 40px;
+  }
+  
+  .menu li button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #57886C;
+    font-size: 16px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+  }
+
+@media (max-width: 390px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .p1, .p2, .p3 {
+      margin: 15px;
+      padding: 15px;
+      width: 100%;
+      overflow: auto; 
+      word-wrap: break-word; 
+      padding: 10px;
+      box-sizing: border-box; 
+    }
+  
+    .p1 p, .p2 p, .p3 p {
+      font-size: 18px;
+    }
+  
+    .p2 {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .p3 img {
+      width: 90%;
+      height: auto;
+      margin: 10px 0;
+    }
+  
+    footer {
+      font-size: 20px;
+      height: auto;
+      padding: 10px;
+    }
+  
+    button {
+      width: 80%;
+      font-size: 16px;
+    }
+  
+    li img {
+      width: 30px;
+    }
+  
+    li a {
+      font-size: 14px;
+    }
+
+    
+  }
 
 
 
